@@ -5,11 +5,11 @@ import Resume from '../ResumeFall2020.pdf';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
  
 function ResumeContent() {
-    const numPages = useState(1);
-    const setNumPages = useState(null); 
    
     function onDocumentLoadSuccess({ numPages }) {
-      setNumPages(numPages);
+     const numPages = useState(1);
+     const setNumPages = useState(null);  
+     setNumPages(numPages);
     }
    
     return (
