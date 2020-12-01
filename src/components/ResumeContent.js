@@ -5,7 +5,7 @@ import Resume from '../ResumeFall2020.pdf';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
  
 function ResumeContent() {
-    const [setNumPages] = useState(null);
+    const [numPages, setNumPages] = useState(null);
     const [pageNumber] = useState(1);
    
     function onDocumentLoadSuccess({ numPages }) {
