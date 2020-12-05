@@ -14,7 +14,7 @@ function ResumeContent() {
     }
    
     return (
-      <div style={{ width: 900 }}>
+      <div style={{ width: 1100 }}>
         <Document
           file={Resume}
           onLoadSuccess={onDocumentLoadSuccess}
