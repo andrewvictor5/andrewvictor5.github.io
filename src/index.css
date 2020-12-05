@@ -54,3 +54,10 @@ code {
   color: #EE6352;
   padding: 10px 15px;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
