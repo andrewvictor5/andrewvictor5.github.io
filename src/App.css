@@ -31,3 +31,7 @@
     transform: rotate(360deg);
   }
 }
+
+#grad{
+  background-image: linear-gradient(to bottom right, white, grey, black);
+}
