@@ -8,7 +8,7 @@ function AboutPage(props) {
     return(
         <div>
             <Hero title={props.title}/>
-            <img src={pic4} height={600} width={500} alt="Sturegon fishing in Astoria, OR"/>
+            <img src={pic4} height={600} width={600} class="center" alt="Sturegon fishing in Astoria, OR"/>
             <Content>
                 <p>My name is Andrew Victor and I am a senior at Oregon State University pursuing a Bachelor's degree in Electrical & Computer Engineering with a minor in Computer Science. My scheduled graduation date is in December 2020. </p>
                 <p>I am currently searching for Full-Time Employment entry-level opportunities in the Software Development, Software Maintenance, or Quality Assurance fields. My current location is in Oregon however I am willing and able to relocate. The majority of my background in school and my internships involved software maintenance and development. </p>
