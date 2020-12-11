@@ -46,7 +46,7 @@ class App extends React.Component {
         title: 'Andrew\'s Projects'
       },
       resume: {
-        title: 'Updated 12/3/2020'
+        title: 'Updated 12/10/2020'
       },
       hawaii: {
         title: 'Kailua Kona Beach'
